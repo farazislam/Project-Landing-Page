@@ -98,7 +98,7 @@ body {
 }
 
 .section_info h1 {
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
@@ -126,8 +126,8 @@ body {
 
 .section_info p {
     width: 150px;
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 15px;
+    color: #1F2937;
 }
 
 /* THIRD SECTION */
@@ -152,4 +152,41 @@ body {
 .author {
     margin-top: 30px;
     font-weight: bold;
+}
+
+/* FOURTH SECTION */
+.section_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.section_signup .container{
+    padding: 40px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    column-gap: 80px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_signup h1 {
+    font-weight: 900;
+}
+
+.section_signup p {
+    font-weight: lighter;
+}
+
+.section_signup button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
 }
