@@ -128,6 +128,7 @@ body {
     width: 150px;
     font-size: 15px;
     color: #1F2937;
+    text-align: center;
 }
 
 /* THIRD SECTION */
@@ -189,4 +190,13 @@ body {
     color: #FFFFFF;
     font-weight: bold;
     border-radius: 5px;
+}
+
+/* FOURTH SECTION */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
 }
